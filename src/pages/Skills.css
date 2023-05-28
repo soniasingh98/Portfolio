@@ -1,0 +1,32 @@
+.skill-page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #97d5ef;
+  margin-bottom: 20px;
+  animation: fadeIn 1s;
+}
+
+.skill-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.skill {
+  border: 1px solid #ccc;
+  background-color: #add7e9;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.skill-name {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
