@@ -12,7 +12,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-logo"></div>
       <div className={`navbar-links ${isNavOpen ? "open" : ""}`}>
-        <a href="/Portfolio">Home</a>
+        <a href="/">Home</a>
         <a href="/about">About</a>
         <a href="/projects">Projects</a>
         <a href="/skills">Skills</a>
