@@ -52,7 +52,7 @@ const Skills = () => {
               >
                 <div className="item">
                   <img
-                    style={{ height: "130px", widht: "130px" }}
+                    style={{ height: "130px", width: "130px" }}
                     src={skill1}
                     alt="skills"
                   />
@@ -60,7 +60,7 @@ const Skills = () => {
                 </div>
                 <div className="item">
                   <img
-                    style={{ height: "130px", widht: "130px" }}
+                    style={{ height: "130px", width: "130px" }}
                     src={skill2}
                     alt="skills"
                   />
@@ -69,7 +69,7 @@ const Skills = () => {
 
                 <div className="item">
                   <img
-                    style={{ height: "130px", widht: "130px" }}
+                    style={{ height: "130px", width: "130px" }}
                     src={skill4}
                     alt="skills"
                   />
@@ -77,7 +77,7 @@ const Skills = () => {
                 </div>
                 <div className="item">
                   <img
-                    style={{ height: "130px", widht: "130px" }}
+                    style={{ height: "130px", width: "130px" }}
                     src={skill5}
                     alt="skills"
                   />
@@ -85,7 +85,7 @@ const Skills = () => {
                 </div>
                 <div className="item">
                   <img
-                    style={{ height: "130px", widht: "130px" }}
+                    style={{ height: "130px", width: "130px" }}
                     src={skill6}
                     alt="skills"
                   />
@@ -93,7 +93,7 @@ const Skills = () => {
                 </div>
                 <div className="item">
                   <img
-                    style={{ height: "130px", widht: "130px" }}
+                    style={{ height: "130px", width: "130px" }}
                     src={skill7}
                     alt="skills"
                   />
@@ -117,7 +117,7 @@ const Skills = () => {
                 </div>
                 <div className="item">
                   <img
-                    style={{ height: "130px", widht: "130px" }}
+                    style={{ height: "130px", width: "130px" }}
                     src={skill10}
                     alt="skills"
                   />
@@ -125,7 +125,7 @@ const Skills = () => {
                 </div>
                 <div className="item">
                   <img
-                    style={{ height: "130px", widht: "130px" }}
+                    style={{ height: "130px", width: "130px" }}
                     src={skill11}
                     alt="skills"
                   />

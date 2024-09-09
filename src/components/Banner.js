@@ -10,12 +10,13 @@ const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const toRotate = [
     "MERN Stack Developer",
-    "Problem Solver",
+    "Software Developer",
     "Front End Developer",
+    "Back End Developer",
   ];
   const [text, setText] = useState(``);
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const period = 2000;
+  const period = 500;
   useEffect(() => {
     let ticker = setInterval(() => {
       tick();
@@ -41,11 +42,19 @@ const Banner = () => {
     } else if (isDeleting && updatedText === "") {
       setIsDeleting(false);
       setLoopNum(loopNum + 1);
-      setDelta(500);
+      setDelta(100);
     }
   };
   return (
-    <section style={{ marginTop: "45px" }} className="banner" id="home">
+    <section
+      style={{
+        marginTop: "45px",
+        background:
+          "linear-gradient(70deg, #480f42 0%, #141312 35%, #141312 100%)",
+      }}
+      className="banner"
+      id="home"
+    >
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
@@ -61,13 +70,13 @@ const Banner = () => {
                 {text}
               </span>
             </h1>
-            <p>
-              IT undergraduate passionate for crafting efficient, scalable, and
-              user-centric applications.
-            </p>
+
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/sonia-singh-b0a886240/" target="__blank">
+                <a
+                  href="https://www.linkedin.com/in/sonia-singh-b0a886240/"
+                  target="__blank"
+                >
                   <img
                     style={{
                       width: "100%",
@@ -105,7 +114,7 @@ const Banner = () => {
             >
               <a
                 style={{ textDecoration: "none", color: "yellow" }}
-                href="https://drive.google.com/file/d/1tXFlDLvcjIVLw4av5rnIZplHXJ2TzO7C/view?usp=sharing"
+                href="https://drive.google.com/file/d/12fX5hkk53DEBUU-o7mrymLMu7GqK-BLh/view?usp=sharing"
                 target="__blank"
               >
                 Check Resume <ArrowRightCircle size={25} />
@@ -115,7 +124,12 @@ const Banner = () => {
 
           <Col xs={12} md={6} xl={5}>
             <img
-              style={{ height: "300px", width: "300px", borderRadius: "150px",marginTop:"20px" }}
+              style={{
+                height: "300px",
+                width: "300px",
+                borderRadius: "150px",
+                marginTop: "20px",
+              }}
               src={sonia_prof}
               alt="header img"
             />
